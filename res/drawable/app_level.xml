@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/rating_bg"
+        android:minLevel="0"
+        android:maxLevel="10"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_1"
+         android:minLevel="11"
+        android:maxLevel="20"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_2"
+        android:minLevel="21"
+        android:maxLevel="30"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_3"
+        android:minLevel="31"
+        android:maxLevel="40"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_4"
+        android:minLevel="41"
+        android:maxLevel="50"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_5"
+        android:minLevel="51"
+        android:maxLevel="60"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_6"
+       android:minLevel="61"
+        android:maxLevel="70"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_7"
+        android:minLevel="71"
+        android:maxLevel="80"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_8"
+        android:minLevel="81"
+        android:maxLevel="90"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_9"
+        android:minLevel="91"
+        android:maxLevel="100"/>
+
+    <item
+        android:drawable="@drawable/rating_bg_10"
+        android:minLevel="101"
+        android:maxLevel="110"/>
+
+</level-list>

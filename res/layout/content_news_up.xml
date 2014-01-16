@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/hcv"
+            android:focusableInTouchMode="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f8f8f8"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rb_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="头条"
+                    android:textColor="@color/radio_button_text" />
+
+                <RadioButton
+                    android:id="@+id/rb_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="体育"
+                    android:textColor="@color/radio_button_text" />
+
+                <RadioButton
+                    android:id="@+id/rb_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="娱乐"
+                    android:textColor="@color/radio_button_text" />
+
+                <RadioButton
+                    android:id="@+id/rb_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="财经"
+                    android:textColor="@color/radio_button_text" />
+
+                <RadioButton
+                    android:id="@+id/rb_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="军事"
+                    android:textColor="@color/radio_button_text" />
+
+                <RadioButton
+                    android:id="@+id/rb_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:button="@null"
+                    android:drawableBottom="@drawable/radio_button_blew"
+                    android:gravity="center"
+                    android:text="NBA"
+                    android:textColor="@color/radio_button_text" />
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/iv_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:background="#0000"
+            android:src="@drawable/biz_news_column_drag_normal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/line_diviver" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_margin="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新闻收藏"
+        android:textColor="#f00" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/base_action_bar_dropdown_list_divider" />
+
+    <TextView
+        android:layout_margin="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跟帖收藏"
+        android:textColor="#000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/base_action_bar_dropdown_list_divider" />
+
+    <TextView
+        android:layout_margin="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片收藏"
+        android:textColor="#000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/base_action_bar_dropdown_list_divider" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:costom="http://schemas.android.com/apk/res/com.zifeng.wangyi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_downing_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_margin="5dip"
+        android:background="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_downing_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="网易新闻"
+            android:textColor="#000" />
+<!-- style="@android:style/Widget.ProgressBar.Horizontal" -->
+        <com.simulation.neteasy.view.MyProgressBar
+            android:progressDrawable="@drawable/progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@+id/pb_downing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            costom:text="下载:0%" />
+    </LinearLayout>
+
+</LinearLayout>

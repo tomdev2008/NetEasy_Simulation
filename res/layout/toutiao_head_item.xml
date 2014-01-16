@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_toutiao_head"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:background="@drawable/base_photoitem_default_icon" />
+
+        <TextView
+            android:id="@+id/tv_toutiao_head"
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/biz_news_header_title_bg"
+            android:text="\t等待"
+            android:textColor="#fff" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/v_pop_bar"
+        android:layout_width="100dp"
+        android:layout_height="2dip"
+        android:layout_gravity="right"
+        android:background="@drawable/base_actionbar_bg" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/news_text_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="推荐应用"
+            android:textColor="#6c6c6c"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@drawable/line_diviver" />
+
+    <RadioGroup
+        android:id="@+id/rg_app"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="center"
+            android:text="推荐应用"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="center"
+            android:text="正在下载"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:button="@null"
+            android:gravity="center"
+            android:text="已经下载"
+            android:textColor="#000" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/v_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flow_bar_bg" />
+    <LinearLayout
+        android:id="@+id/ll_recommend_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </LinearLayout>
+
+</LinearLayout>

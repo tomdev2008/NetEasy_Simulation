@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <!--
+    android:descendantFocusability="blocksDescendants"  定义LinearLayout和他的子view的关系（获得焦点时）
+    LinearLayout会字节覆盖子view获得焦点
+    -->
+    
+
+    <ImageView
+        android:id="@+id/iv_all_app_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_margin="5dip"
+        android:background="@drawable/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/tv_all_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/iv_all_app_icon"
+        android:text="网易新闻"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/iv_all_app_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_all_app_name"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/iv_all_app_icon"
+        android:src="@drawable/app_level" />
+
+    <Button
+        android:id="@+id/bt_all_app_down"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/quick_download_icon" />
+
+    <TextView
+        android:id="@+id/tv_all_app_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_toLeftOf="@id/bt_all_app_down"
+        android:text="2.22MB"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/tv_all_app_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_all_app_size"
+        android:layout_toLeftOf="@id/bt_all_app_down"
+        android:text="版本：20202"
+        android:textSize="10dip" />
+
+</RelativeLayout>
